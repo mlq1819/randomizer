@@ -32,6 +32,6 @@ int main(int argc, char ** argv){
 		unsigned int n = (unsigned int)(rand()%((unsigned int) max/multiple))*multiple;
 		ofp << n << endl;
 	}
-	ofp.close()
+	ofp.close();
 	return 0;
 }
